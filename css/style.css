@@ -34,7 +34,9 @@ h1,h2,h3,h4,h5,h6{
 h1{
     font-size: 4rem;
 }
-
+h3{
+    padding: 1rem 0;
+}
 .link{
     color: var(--lighter);
 }
@@ -103,9 +105,7 @@ nav{
   
 }
 
-.brand{
- 
-}
+
 .brand img{
     height: 150px;
 }
@@ -248,6 +248,48 @@ nav{
 .project a:hover{
     background-color: var(--light);
 }
+
+.social{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+.social a{
+    background-color: var(--darkest);
+    padding: 1rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+
+.cv{
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  
+  .cv li {
+    position: relative;
+    list-style-type: none;
+    padding-left: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cv li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 5px;
+      height: 11px;
+      border-width: 0 2px 2px 0;
+      border-style: solid;
+      border-color: var(--light);
+      transform-origin: bottom left;
+      transform: rotate(45deg);
+  }
+
+
 @media  screen and ( min-width: 768px) {
     
 nav{
