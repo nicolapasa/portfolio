@@ -50,7 +50,7 @@ h3{
 
 .hero{
 
-    width: 480px;
+    width: 100%;
     margin: 2rem auto;
     display: flex;
     gap: 2rem;
@@ -138,7 +138,8 @@ nav{
     gap: 2rem;
     flex-direction: column;
     margin: 2rem auto;
-    width: 480px;
+    
+    width: 100%;
     justify-content: center;
     background-color: var(--dark);
     border-radius: 5%;
@@ -153,7 +154,8 @@ nav{
     gap: 2rem;
     flex-direction: column;
     margin: 2rem auto;
-    width: 480px;
+
+    width: 100%;
     justify-content: center;
     background-color: var(--dark);
     border-radius: 5%;
@@ -180,7 +182,8 @@ nav{
     gap: 2rem;
     flex-direction: column;
     margin: 2rem auto;
-    width: 480px;
+   
+    width: 100%;
     justify-content: center;
     border-radius: 5%;
     padding: 2rem;
@@ -193,7 +196,8 @@ nav{
     gap: 2rem;
     flex-direction: column;
     margin: 2rem auto;
-    width: 480px;
+
+    width: 100%;
     justify-content: center;
     border-radius: 5%;
     padding: 2rem;
