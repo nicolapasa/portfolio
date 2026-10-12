@@ -43,7 +43,7 @@ export class AppComponent {
     this.document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
   }
   readonly year = new Date().getFullYear();
-  readonly categories: Category[] = ['Tutti', 'Gestionali', 'E-commerce', 'Web & blog', 'Giochi'];
+  readonly categories: Category[] = ['Tutti', 'Gestionali', 'E-commerce', 'Web & blog'];
   readonly category = signal<Category>('Tutti');
   readonly menuOpen = signal(false);
   readonly filteredProjects = computed(() => projects.filter(p => this.category() === 'Tutti' || p.category === this.category()));

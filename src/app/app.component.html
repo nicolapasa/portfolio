@@ -29,7 +29,7 @@
   </section>
   <div class="proof wrap" [attr.aria-label]="t('Esperienza professionale')"><div><strong>20+</strong><span>{{ t('anni nello sviluppo web') }}</span></div><div><strong>100+</strong><span>{{ t('progetti in SrlSolutions') }}</span></div><div><strong>20+</strong><span>{{ t('progetti in WebGo dal 2024') }}</span></div><a href="https://github.com/nicolapasa" target="_blank" rel="noopener noreferrer">{{ t('Il codice su GitHub') }} <span aria-hidden="true">↗</span></a></div>
   <section class="section wrap" id="projects" aria-labelledby="projects-title">
-    <div class="section-heading"><div><p class="eyebrow">{{ t('01 / PROGETTI') }}</p><h2 id="projects-title">{{ t('Idee che prendono forma') }}<span class="blue">.</span></h2></div><p>{{ t('Gestionali, esperienze web') }}<br>{{ t('e qualche esperimento.') }}</p></div>
+    <div class="section-heading"><div><p class="eyebrow">{{ t('01 / PROGETTI') }}</p><h2 id="projects-title">{{ t('Idee che prendono forma') }}<span class="blue">.</span></h2></div><p>{{ t('Gestionali ed esperienze web') }}<br>{{ t('Dall’idea alla soluzione.') }}</p></div>
     <div class="filters" role="group" [attr.aria-label]="t('Filtra progetti per categoria')">@for (item of categories; track item) {<button type="button" [class.active]="category() === item" [attr.aria-pressed]="category() === item" (click)="category.set(item)">{{ t(item) }}</button>}<span class="result-count" aria-live="polite">{{ filteredProjects().length }} {{ t('progetti') }}</span></div>
     <div class="project-grid">
       @for (project of filteredProjects(); track project.name; let i = $index) {
