@@ -12,6 +12,10 @@ export interface Project {
 
 // Informazioni dei nuovi progetti: https://sviluppodev.eu/site/dist/
 export const projects: Project[] = [
+  { name: 'Contact CRM', category: 'Gestionali', featured: true,
+    description: 'Un workspace dedicato alla gestione dei contatti e delle relazioni con i clienti.',
+    tags: ['CRM', 'Contatti', 'Relazioni clienti'], url: 'https://sviluppodev.eu/crm/',
+    note: 'Il progetto apre la pagina di accesso; per accedere al workspace è necessario un account.' },
   { name: 'Vetlab', category: 'Gestionali', featured: true, image: 'vetlab.webp',
     description: 'Il laboratorio veterinario in un unico spazio. Dalle richieste di esami ai referti, fino alla fatturazione e alle statistiche.',
     tags: ['Richieste', 'Referti', 'Fatturazione'], url: 'https://sviluppodev.eu/demo_lab/', note: 'La demo apre la pagina di accesso; le funzioni richiedono un account.' },

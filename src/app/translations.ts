@@ -1,4 +1,10 @@
 export const english: Record<string, string> = {
+  'Un workspace dedicato alla gestione dei contatti e delle relazioni con i clienti.': 'A workspace for managing contacts and customer relationships.',
+  'Contatti': 'Contacts',
+  'Relazioni clienti': 'Customer relationships',
+  'Il progetto apre la pagina di accesso; per accedere al workspace è necessario un account.': 'The project opens on the login page; an account is required to access the workspace.',
+  'Le tue relazioni.': 'Your relationships.',
+  'In un unico spazio.': 'In one workspace.',
   'Vai al contenuto': 'Skip to content',
   'Chiudi −': 'Close −',
   'Menu +': 'Menu +',

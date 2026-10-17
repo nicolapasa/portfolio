@@ -36,6 +36,7 @@
         <article class="project-card" [class.featured]="project.featured">
           <div class="project-visual" [class.nautica]="project.name === 'Nautica'">
             @if (project.image) {<img [src]="'images/' + project.image" [alt]="t('Anteprima di ') + t(project.name)" width="1000" height="750" loading="lazy" decoding="async">}
+            @else if (project.name === 'Contact CRM') {<div class="crm-art"><span>CONTACT CRM</span><strong>{{ t('Le tue relazioni.') }}<br><em>{{ t('In un unico spazio.') }}</em></strong><div class="crm-monogram" aria-hidden="true">C<span>↗</span></div></div>}
             @else {<div class="nautica-art"><span>NAUTICA / LARAVEL</span><strong>{{ t('Tutto a bordo.') }}<br>{{ t('Tutto sotto') }}<br><em>{{ t('controllo.') }}</em></strong><div class="wave" aria-hidden="true">≈</div></div>}
             @if (project.featured) {<span class="project-badge">{{ t('DALLO SHOWCASE') }}</span>}
           </div>

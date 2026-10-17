@@ -1,6 +1,6 @@
 # Nicola Pasa — Portfolio Angular
 
-Portfolio statico Angular 22, senza backend, database o API a runtime. Componenti standalone, signals e change detection OnPush. Contenuti in italiano aggiornati dallo showcase, con cinque progetti: Vetlab, NEXORA, Nautica, Marco Angelini Blog e Blog personale.
+Portfolio statico Angular 22, senza backend, database o API a runtime. Componenti standalone, signals e change detection OnPush. Contenuti in italiano aggiornati dallo showcase, con sei progetti: Contact CRM, Vetlab, NEXORA, Nautica, Marco Angelini Blog e Blog personale.
 
 ## Sviluppo
 
